@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./assets/bg-pattern.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+//Clock Stuff
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.startTimer,
+.resetTimer {
+    display: inline;
+    justify-content: center;
+    margin: 0.4rem;
+}
+
+//custom btn Start Timer
+.btn-flat {
+    background-color: rgb(158, 212, 158);
+    color: white;
+}
+
+.btn-xl {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+.countDownTitle {
+    font-family: 'Josefin Sans', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: 1rem;
+    color: rgb(194, 51, 51);
+    margin: 1em auto;
+    text-shadow: 1px 2px 3px #000000;
+}
+
+.myClock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+
+.clockDays,
+.clockHours,
+.clockMinutes,
+.clockSeconds {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    font-family: 'Space Mono', Helvetica;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 1.5em;
+    color: white;
+    text-shadow: 1px 2px 3px #000000;
+}
+
+.submitBtn {
+    margin: 35px auto;
+    display: block;
+    font-family: 'Space Mono', Helvetica;
+    font-size: 2rem;
+    background-color: #FFFD7C;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+    color: #6C7A89;
+}
+
+.submitBtn:hover {
+    background-color: #ff0000;
+    color: whitesmoke;
+}
